@@ -1,9 +1,12 @@
+import worker1  from "./worker1.jpg";
+import worker2 from "./worker2.jpg";
+
 export const WorkersData = [
   {
     name: "Grażyna",
     surname: "Nowak",
     department: "Design",
-    photo: "photo/source",
+    photo: worker1,
     description:
       " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni officia eaque perferendis impedit sed maxime saepe laboriosam inventore aut. Eum nemo tenetur doloremque nulla quibusdam natus accusamus sequi aut minima deleniti? Labore, architecto sequi. Voluptatum voluptatem libero corrupti atque ut.",
   },
@@ -11,7 +14,7 @@ export const WorkersData = [
     name: "Jan",
     surname: "Kowalsky",
     department: "Frontend Develepment",
-    photo: "photo/source",
+    photo: worker2,
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni officia eaque perferendis impedit sed maxime saepe laboriosam inventore aut. Eum nemo tenetur doloremque nulla quibusdam natus accusamus sequi aut minima deleniti? Labore, architecto sequi. Voluptatum voluptatem libero corrupti atque ut.",
   },
