@@ -1,32 +1,32 @@
 export const OfferInfo = [
   {
     name: "Usługa 1",
-    location: "",
+    location: "offer-1",
     isNew: true,
   },
   {
     name: "Usługa 2",
-    location: "",
+    location: "offer-2",
     isNew: false,
   },
   {
     name: "Usługa 3",
-    location: "",
+    location: "offer-3",
     isNew: false,
   },
   {
     name: "Usługa 4",
-    location: "",
+    location: "offer-4",
     isNew: false,
   },
   {
     name: "Usługa 5",
-    location: "",
+    location: "offer-5",
     isNew: false,
   },
   {
     name: "Usługa 6",
-    location: "",
+    location: "offer-6",
     isNew: false,
   },
 ];

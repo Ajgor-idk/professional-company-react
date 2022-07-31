@@ -1,5 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
 import { OfferInfo } from "../../Data/OfferInfo/Offerinfo";
+import { Link } from "react-router-dom";
 
 export const Offers = () => {
   return (
@@ -10,16 +11,16 @@ export const Offers = () => {
           {OfferInfo.map(({ name, location, isNew }) => {
             if (isNew === true) {
               return (
-                <a key={uuidv4} href={location} className="product">
+                <Link key={uuidv4} to={location} className="product">
                   <div className="dot"></div> <span>{name}</span>
                   <span>(nowość)</span>
-                </a>
+                </Link>
               );
             } else {
               return (
-                <a className="product" key={uuidv4()} href={location}>
+                <Link className="product" key={uuidv4()} to={location}>
                   {name}
-                </a>
+                </Link>
               );
             }
           })}

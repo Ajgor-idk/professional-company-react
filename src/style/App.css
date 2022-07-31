@@ -32,6 +32,7 @@ header > .header-layout {
   color: var(--font-color);
   font-weight: var(--font-weight-l);
   font-size: var(--font-size-m);
+  text-decoration: none;
 }
 
 nav {
